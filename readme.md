@@ -13,4 +13,4 @@ API used: https://countryapi.io/documentation
 
 Wireframe sketch:
 
-![proposed wireframe] [Imgur](https://i.imgur.com/nIDDDZZs.jpg)
+![Imgur](https://i.imgur.com/nIDDDZZ.jpg)

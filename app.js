@@ -47,7 +47,7 @@ function displayCountry(country){
 
 //To initiate upon opening up
 
-requestName("spain")
+//requestName("spain")
 
 
 
@@ -82,6 +82,17 @@ requestName("spain")
 //3:30 pm MST / Dec 1
 //My current problem is, I want the information to display, but I have to type country."country code".name - to get it to display. I need to figure out how to get past the country code, or once name is submitted, it moves through it
 
+//8:30 am MST / Dec 2
+//The problem of the day was figuring out how to get past the top layer of the object. This is a ISO country code that holds the rest of the object
+
+//1:00 pm MST / Dec 2
+//David helped me understand what I was doing wrong. I tried 3 different methods, for...loop, for...in, and object.key, but I didn't utilize any of them in their entirity. I had the basis (though it was wrong) of using object.keys but I didn't combine it with a loop. The opposite is true too, I started looping, but I was looping through anything with substance
+
+//1:40 MST / Dec 2
+//Fixed up my function of displayCountry() and it is now passing in the data I am wanting to show. Would like to maybe add 1 more but concerned how I'll start styling this. 
+
+//Goal for / Dec 3 (writing as of Dec 2)
+//Think on if I want to add more information. Tomorrow, will reevaluate where I am and go from there. I need to create a function for the button now that will handle the input from the user.
 
 
 //Testing
@@ -95,28 +106,3 @@ requestName("spain")
 
 
 
-//Next I need to loop through to find my key 
-    
-        // const country = country.json(country.data);
-   
-
-        // Object.entries(res).forEach((entry) => {
-        //     const [key, value] = entry
-        //     console.log(`${key}: ${value}`)
-        // })
-
-
-        //Trying another method for...in
-
-        // for(const key in data) {
-        //     console.log(`${key}: ${data[key]}`)
-        // }
-
-        //Trying another method
-        // const country = JSON.parse(data);
-
-        // for (const key in country){
-        //     if(Object.hasOwnProperty(key)){
-        //         console.log(`${key} : ${res[key]}`)
-        //     }
-        // }

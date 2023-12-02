@@ -1,7 +1,7 @@
 //My variables
 
 const url = "https://countryapi.io/api/"
-const apiKey = "WbnHhi8gYqWon6MUXgJ8MIcR0VjTErzDGynULxjh"
+const apiKey = "0M3FXa8S9y0I9nzTlvjERh9XYQIKSQn3cXY2Qh1Q"
 
 
 //My functions
@@ -14,11 +14,20 @@ function requestName(countryName){
     fetch(requestUrl)
     .then((res) => {return res.json()})
     
-    .then((data) => { //.then((value) =>
-        const spain = data.es
+    .then((data) => { 
+console.log(Object.keys(data)[0])
+        const country = Object.keys(data)[0]
+        console.log(data[country])
 
-        displayCountry(spain) 
-        console.log(spain)// I am pulling it, comes in as an object
+        for(const key in data[country]){
+            //console.log(key)
+            console.log(key,data[country][key])
+        }
+        //Below is going to confirm spain is pulled. Commenting out, can use this as assistance
+        //const es = data.es
+
+        //displayCountry(spain) 
+        //console.log(data)// I am pulling it, comes in as an object
         
 })
 
@@ -45,19 +54,7 @@ requestName("spain")
 
 
 
-//From their website, kept at the bottom for now
-// var settings = {
-//     "url": "https://countryapi.io/api/all",
-//     "method": "GET",
-//     "timeout": 0,
-//     "headers": {
-//       "Authorization": "Bearer YOUR-APIKEY"
-//     },
-//   };
-  
-//   $.ajax(settings).done(function (response) {
-//     console.log(response);
-//   });
+
 
 
 
@@ -95,3 +92,32 @@ requestName("spain")
 //     console.log(data)
 //     console.log(data.value.name.peru)
 // })
+
+
+
+
+//Next I need to loop through to find my key 
+    
+        // const country = country.json(country.data);
+   
+
+        // Object.entries(res).forEach((entry) => {
+        //     const [key, value] = entry
+        //     console.log(`${key}: ${value}`)
+        // })
+
+
+        //Trying another method for...in
+
+        // for(const key in data) {
+        //     console.log(`${key}: ${data[key]}`)
+        // }
+
+        //Trying another method
+        // const country = JSON.parse(data);
+
+        // for (const key in country){
+        //     if(Object.hasOwnProperty(key)){
+        //         console.log(`${key} : ${res[key]}`)
+        //     }
+        // }

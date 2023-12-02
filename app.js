@@ -26,7 +26,7 @@ console.log(Object.keys(data)[0])
         //Below is going to confirm spain is pulled. Commenting out, can use this as assistance
         //const es = data.es
 
-        //displayCountry(spain) 
+        displayCountry(data[country]) 
         //console.log(data)// I am pulling it, comes in as an object
         
 })
@@ -34,17 +34,16 @@ console.log(Object.keys(data)[0])
 }
 
 //I need to create the function displayCountry. This is
-// function displayCountry(id){
-//     const countrydiv = document.querySelector(".country")
-    //const country = id.es
-   // console.log(country)
-//    countrydiv.innerHTML =
-//         //`<h3>${country}.${id.capital}</h3>`
-        //`<h3>${name.capital}</h3>`
-//       `<h3>${id.capital}</h3>`
+function displayCountry(country){
+    const countrydiv = document.querySelector(".country")
+   countrydiv.innerHTML =`
+        <h3>${country.capital}</h3>
+        <h3>${country.languages.name}</h3>
+        <img src=${country.flag.medium}>
+        `
         //`<h3>${id.es.name}</h3>` This does pull but it isn't correct. It's nested another layer deep
 
- //}
+ }
 
 //To initiate upon opening up
 

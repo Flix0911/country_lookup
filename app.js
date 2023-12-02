@@ -15,20 +15,27 @@ function requestName(countryName){
     .then((res) => {return res.json()})
     
     .then((data) => { //.then((value) =>
-        displayCountry(data)
-        console.log(data)// I am pulling it, comes in as an object
+        const spain = data.es
+
+        displayCountry(spain) 
+        console.log(spain)// I am pulling it, comes in as an object
+        
 })
 
 }
 
 //I need to create the function displayCountry. This is
-function displayCountry(name){
-    const countrydiv = document.querySelector(".country")
-
-    countrydiv.innerHTML =
+// function displayCountry(id){
+//     const countrydiv = document.querySelector(".country")
+    //const country = id.es
+   // console.log(country)
+//    countrydiv.innerHTML =
 //         //`<h3>${country}.${id.capital}</h3>`
-        `<h3>${name.capital}</h3>`
- }
+        //`<h3>${name.capital}</h3>`
+//       `<h3>${id.capital}</h3>`
+        //`<h3>${id.es.name}</h3>` This does pull but it isn't correct. It's nested another layer deep
+
+ //}
 
 //To initiate upon opening up
 

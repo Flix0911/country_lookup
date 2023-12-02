@@ -5,7 +5,7 @@ const apiKey = "WbnHhi8gYqWon6MUXgJ8MIcR0VjTErzDGynULxjh"
 
 
 //My functions
-function requestCountry(countryName){
+function requestName(countryName){
 
      //I need to create a variable to hold my API call
     const requestUrl = `${url}name/${countryName}/?apikey=${apiKey}`
@@ -13,7 +13,8 @@ function requestCountry(countryName){
 
     fetch(requestUrl)
     .then((res) => {return res.json()})
-    .then((data) => {
+    
+    .then((data) => { //.then((value) =>
         displayCountry(data)
         console.log(data)// I am pulling it, comes in as an object
 })
@@ -21,16 +22,17 @@ function requestCountry(countryName){
 }
 
 //I need to create the function displayCountry. This is
-function displayCountry(country){
+function displayCountry(name){
     const countrydiv = document.querySelector(".country")
 
     countrydiv.innerHTML =
-        `<h3>${country.es.capital}</h3>`
-}
+//         //`<h3>${country}.${id.capital}</h3>`
+        `<h3>${name.capital}</h3>`
+ }
 
 //To initiate upon opening up
 
-//requestCountry("spain")
+requestName("spain")
 
 
 

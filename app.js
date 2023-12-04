@@ -15,7 +15,8 @@ function requestName(countryName){
     .then((res) => {return res.json()})
     
     .then((data) => { 
-console.log(Object.keys(data)[0])
+        //Need to go a level deeper for displaying. Country name is not the top of the object
+        console.log(Object.keys(data)[0])
         const country = Object.keys(data)[0]
         console.log(data[country])
 
@@ -33,7 +34,7 @@ console.log(Object.keys(data)[0])
 
 }
 
-//I need to create the function displayCountry. This is
+//below function is to render the country onto the DOM
 function displayCountry(country){
     const countrydiv = document.querySelector(".country")
    countrydiv.innerHTML =`
@@ -45,7 +46,22 @@ function displayCountry(country){
 
  }
 
+ //function to allow you to submit
+ //name the function of what it will be doing
+
+ //It is an event function
+ function handleSubmit(event){
+
+    //grab the form from the event
+    const form = event.target
+    console.log(form) //quickly appears and quickly disappears
+
+ }
+
 //To initiate upon opening up
+
+//add the handleSubmit function
+document.querySelector("form").addEventListener("submit", handleSubmit)
 
 //requestName("spain")
 

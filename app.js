@@ -39,8 +39,6 @@ function displayCountry(country){
     const countrydiv = document.querySelector(".country")
    countrydiv.innerHTML =`
         <h3>${country.capital}</h3>
-        <h3>${country.languages.name}</h3>
-        <img src=${country.flag.medium}>
         `
         //`<h3>${id.es.name}</h3>` This does pull but it isn't correct. It's nested another layer deep
 
@@ -52,10 +50,22 @@ function displayCountry(country){
  //It is an event function
  function handleSubmit(event){
 
+    //prevent the refreshing of the page
+    event.preventDefault()
+
     //grab the form from the event
     const form = event.target
-    console.log(form) //quickly appears and quickly disappears
+    //console.log(form) //quickly appears and quickly disappears
+    //checked after adding preventDefault, I am logging the form
 
+    //create a formData to access - creating a wrapper
+    const formData = new FormData(form)
+    //grab the CountryName
+    const countryName = formData.get("CountryName")
+    //console.log(countryName)
+
+    //fetch specified
+    requestName(countryName)
  }
 
 //To initiate upon opening up
@@ -63,7 +73,7 @@ function displayCountry(country){
 //add the handleSubmit function
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
-//requestName("spain")
+requestName("spain")
 
 
 

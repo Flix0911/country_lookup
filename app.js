@@ -73,7 +73,7 @@ function displayCountry(country){
 //add the handleSubmit function
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
-requestName("spain")
+//requestName("spain")
 
 
 
@@ -119,6 +119,12 @@ requestName("spain")
 
 //Goal for / Dec 3 (writing as of Dec 2)
 //Think on if I want to add more information. Tomorrow, will reevaluate where I am and go from there. I need to create a function for the button now that will handle the input from the user.
+
+//6:00 pm MST / Dec 3
+//Completed goal of the function for the button. Did not work on what information will be displayed yet. Added data.txt and had spain as my reference so I don't need it in the browser
+
+//Goal for Dec 4(writing as for Dec 3) 
+//Finish what information will pull. From there, start looking at how style is going to be handled.
 
 
 //Testing

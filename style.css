@@ -1,0 +1,27 @@
+* {
+    outline: 2px dotted green;
+}
+
+h1 {
+    color: blue;
+}
+
+.div {
+}
+
+.form {
+
+}
+
+#button {
+
+}
+
+.country {
+    color: blue;
+    background-color: black;
+}
+
+.country.h3 {
+    background-color: purple;
+}

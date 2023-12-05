@@ -76,7 +76,7 @@ function displayCountry(country){
 //add the handleSubmit function
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
-//requestName("spain")
+requestName("spain")
 
 
 
@@ -128,6 +128,11 @@ document.querySelector("form").addEventListener("submit", handleSubmit)
 
 //Goal for Dec 4(writing as for Dec 3) 
 //Finish what information will pull. From there, start looking at how style is going to be handled.
+
+//Skipped Dec 4th for homework
+
+//4:40 pm MST / Dec 5
+//Comeplted
 
 
 //Testing

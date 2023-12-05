@@ -38,7 +38,10 @@ function requestName(countryName){
 function displayCountry(country){
     const countrydiv = document.querySelector(".country")
    countrydiv.innerHTML =`
-        <h3>${country.capital}</h3>
+        <h3>Capital: ${country.capital}</h3>
+        <h3>Region: ${country.region}</h3>
+        <h3>Language: ${country.demonyms.eng.f}</h3>
+        <img src=${country.flag.medium}>
         `
         //`<h3>${id.es.name}</h3>` This does pull but it isn't correct. It's nested another layer deep
 

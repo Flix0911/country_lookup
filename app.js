@@ -9,20 +9,20 @@ function requestName(countryName){
 
      //I need to create a variable to hold my API call
     const requestUrl = `${url}name/${countryName}/?apikey=${apiKey}`
-    console.log(requestUrl) 
+    //console.log(requestUrl) 
 
     fetch(requestUrl)
     .then((res) => {return res.json()})
     
     .then((data) => { 
         //Need to go a level deeper for displaying. Country name is not the top of the object
-        console.log(Object.keys(data)[0])
+        //console.log(Object.keys(data)[0])
         const country = Object.keys(data)[0]
-        console.log(data[country])
+        //console.log(data[country])
 
         for(const key in data[country]){
             //console.log(key)
-            console.log(key,data[country][key])
+            //console.log(key,data[country][key])
         }
         //Below is going to confirm spain is pulled. Commenting out, can use this as assistance
         //const es = data.es
@@ -76,7 +76,7 @@ function displayCountry(country){
 //add the handleSubmit function
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
-requestName("spain")
+//requestName("spain")
 
 
 
@@ -132,7 +132,10 @@ requestName("spain")
 //Skipped Dec 4th for homework
 
 //4:40 pm MST / Dec 5
-//Comeplted
+//Comeplted pulling all the information I want to report on. Capital, Language, Region, and Flag.
+//Commented out the console.logs that were still left active. No longer need them but will leave them there for thoroughness
+//Began styling in CSS. More like, I laid out what I will be looking to style. Need to sketch out what I think the colors should look like, and how the data should appear on the page
+//Another comment, need to add a footer with something on it for the sake of styling
 
 
 //Testing

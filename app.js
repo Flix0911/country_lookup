@@ -40,7 +40,7 @@ function displayCountry(country){
    countrydiv.innerHTML =`
         <h3>Capital: ${country.capital}</h3>
         <h3>Region: ${country.region}</h3>
-        <h3>Language: ${country.demonyms.eng.f}</h3>
+        <h3>Population: ${country.population}</h3>
         <img src=${country.flag.medium}>
         `
         //`<h3>${id.es.name}</h3>` This does pull but it isn't correct. It's nested another layer deep

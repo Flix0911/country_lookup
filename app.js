@@ -51,7 +51,7 @@ function displayCountry(country){
  //name the function of what it will be doing
 
  //It is an event function
- //function handleSubmit(event){
+ function handleSubmit(event){
 
     //prevent the refreshing of the page
     event.preventDefault()

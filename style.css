@@ -55,7 +55,7 @@ h3 {
 
 button {
     background-color: #5dbea3;
-    color: white;
+    color: black;
     justify-content: center;
     font-style: italic;
     font-weight: bold;
@@ -93,4 +93,15 @@ footer {
     font-weight: bold;
     font-size: 1em;
     text-align: center;
+    
+}
+
+.ion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ion-mini {
+    border: double #c7c1b8;
 }

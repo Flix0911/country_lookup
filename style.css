@@ -1,33 +1,53 @@
-* {
-    outline: 2px dotted green;
+body {
+    /* outline: 2px dotted green; */
     font-family: 'Poiret One', sans-serif;
     background-color: rgb(251, 227, 190);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: #EBBC4E;
     background-color: #fbe5a1; 
     text-align: center;
-    font-weight: 1000;
-    font-size: 40px;
-    padding: 5px 5px;
-    border: double black
-    ;
+    border: double black;
+    font-size: 2em;
+    margin: 20px 0;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
 
 .form {
-    justify-content: center;
-    color: red;
-    width: 900px;
+    color: black;
+    width: 50%;
     text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-input {
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+    image-rendering: crisp-edges;
+}
+
+.input {
     color: black;
     display: flex;
     justify-content: center;
     font-weight: bold;
-    width: 192px;
+    width: 100%;
     text-align: center;
     background-color: #f5f5dc;
 
@@ -40,7 +60,7 @@ button {
     font-style: italic;
     font-weight: bold;
     display: flex;
-    width: 200px;
+    width: 101.7%;
 
     
 }
@@ -49,9 +69,15 @@ button {
     color: black;
     background-color: #ebd0d0;
     text-transform: uppercase;
-    display: flexbox;
     flex-wrap: wrap-reverse;
     object-fit: fill;
     justify-content: center;
     width: 100%;
+}
+
+.country img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }

@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: #EBBC4E;
+    color: #3a2b06;
     background-color: #fbe5a1; 
     text-align: center;
     border: double black;
@@ -54,7 +54,7 @@ h3 {
 }
 
 button {
-    background-color: #5dbea3;
+    background-color: #af8113;
     color: black;
     justify-content: center;
     font-style: italic;

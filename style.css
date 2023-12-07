@@ -11,32 +11,47 @@ h1 {
     font-weight: 1000;
     font-size: 40px;
     padding: 5px 5px;
+    border: double black
     ;
 }
 
-.div {
-    background-color: blue;
+.form {
+    justify-content: center;
+    color: red;
+    width: 900px;
+    text-align: center;
 }
 
-.form {
+input {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    width: 192px;
+    text-align: center;
+    background-color: #f5f5dc;
 
 }
 
 button {
     background-color: #5dbea3;
     color: white;
-    justify-content: right;
+    justify-content: center;
     font-style: italic;
     font-weight: bold;
+    display: flex;
+    width: 200px;
+
     
 }
 
 .country {
-    color: blue;
-    background-color: black;
-}
-
-.country.h3 {
-    background-color: purple;
+    color: black;
+    background-color: #ebd0d0;
     text-transform: uppercase;
+    display: flexbox;
+    flex-wrap: wrap-reverse;
+    object-fit: fill;
+    justify-content: center;
+    width: 100%;
 }

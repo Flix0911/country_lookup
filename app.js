@@ -76,7 +76,7 @@ function displayCountry(country){
 //add the handleSubmit function
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
-//requestName("spain")
+requestName("spain")
 
 
 

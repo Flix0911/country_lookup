@@ -137,6 +137,12 @@ requestName()
 //Began styling in CSS. More like, I laid out what I will be looking to style. Need to sketch out what I think the colors should look like, and how the data should appear on the page
 //Another comment, need to add a footer with something on it for the sake of styling
 
+//7:00 pm MST / Dec 6
+//Worked on styling and I have a fully functional, styled, website. It is kind of odd looking but I wanted colors that stood out a bit. I'm going to sleep on it some and figure out if it is actually acceptable to turn in. Especially since it looks older. I wanted it to look that way and I wanted colors that weren't just bland. added some ion icons and did simple styling just for the sake of playing around with the styling some more. I should add, mobile setting looks appropriate as well but I feel like there is so much more to accomplish.
+//Goal for Dec 7
+//I'm going to clean up this javascript and put everything into another data file just to log everything I've written out. I want to keep some this just to show the work of it all. From there, I need to clean up and build out the read.me more to catalog everything that I went through throughout the week. All in all it looks good, my biggest comment is this below:
+//Everything I've written out has been very heavy on referencing previous works and pulling things from website and tweeking them. My question again remain, is this how this is supposed to be accomplished? I fully recognize that I am still at the stage where I need to reference previous work, but I feel like if I didn't have that, I would crash and burn. I don't feel like this is truly an original made by myself, because it absolutely isn't. I've borrowed so much, especially on JS and CSS, that the biggest "original works" would just be the names of classes and such. I will continue on though!
+
 
 //Testing
 

@@ -28,7 +28,7 @@
             <a href="https://wikitravel.org/en/Main_Page">To learn more about your destination, please visit WikiTravel</a>
         </5h>
 
-    <footer>
+    <footer class="footer">
         
         <h4>Thank you for visiting</h4>
         <h5>
@@ -41,7 +41,17 @@
                 </div>
             </div>
         </h5>
+     
+
+    <script>
+        const $footer = $("footer");
+         const $h6 = $("<h6>").text("This site is for educational purposes only");
+         $footer.append($h6);
+         $h6.css("color", "silver");
+     </script>
     </footer>
     </main>
+
+
 </body>
 </html>

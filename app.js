@@ -71,6 +71,8 @@ function displayCountry(country){
     requestName(countryName)
  }
 
+
+ 
 //To initiate upon opening up
 
 //add the handleSubmit function

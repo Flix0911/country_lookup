@@ -135,11 +135,20 @@ Wireframe sketch:
 |----|------|-----------------------|
 
 | Fri | Create Readme, Deploy, Get Approval, Build Fetch and Render Data | Complete:O
+
 | Sat | Create JS functions to call API |Complete:O |
+
 | Sun | Create JS function for user to input request | Complete:O |
+
 | Mon | Ensure all information being pulled and sketch out CSS | Complete:O |
+
 | Tues| Begin styling | Complete:O (sure started out ugly) |
-| Wed | complete styling and ensure mobile/desktop | Complete:O (earth tone!) |
+
+| Wed | complete styling and ensure mobile/desktop | 
+Complete:O (earth tone!) |
+
 |Thurs| Review | No changes were ultimately made |
+
 | Fri | final touches - Review everything and add last bits | |
+
 | Sat | Present Project ||

@@ -10,7 +10,7 @@
 API used: https://countryapi.io/documentation
 
 ##### Sample data:
-`
+```json
 "es": {
     "name": "Spain",
     "official_name": "Kingdom of Spain",
@@ -117,15 +117,17 @@ API used: https://countryapi.io/documentation
       }
     ]
   }
-}`
+}
+```
 
+### Mockup
 Wireframe sketch:
 
 ![Imgur](https://i.imgur.com/nIDDDZZ.jpg)
 
 ### Completed project layout below
 
-![Imgur](https://imgur.com/3w9Szpi)
+![Imgur](https://i.imgur.com/3w9Szpis.jpg)
 
 ## Schedule of Work
 

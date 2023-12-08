@@ -127,7 +127,7 @@ Wireframe sketch:
 
 ### Completed project layout below
 
-[Imgur](https://i.imgur.com/3w9Szpi.jpg)
+![Imgur](https://i.imgur.com/3w9Szpi.jpg)
 
 ## Schedule of Work
 

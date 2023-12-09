@@ -149,6 +149,6 @@ Complete:O (earth tone!) |
 
 |Thurs| Review | No changes were ultimately made |
 
-| Fri | final touches - Review everything and add last bits | |
+| Fri | final touches - Review everything and add last bits | Added final color changes and random fixes |
 
 | Sat | Present Project ||
